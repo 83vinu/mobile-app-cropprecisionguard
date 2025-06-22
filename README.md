@@ -1,3 +1,4 @@
+In Constants.dart file I have mention that "your-api-key" replace it with your openai api key
 # crop_prediction_system
 
 A Future Agri Assist AI Agent
