@@ -1,0 +1,67 @@
+name: crop_prediction_system
+description: "A Future Agri Assist AI Agent"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  file_picker: ^10.1.2
+  image_picker: ^1.0.4
+  intl: ^0.19.0
+  http: ^1.3.0
+  flutter_markdown: ^0.7.7
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.13.0
+  cloud_firestore: ^5.6.7
+  firebase_auth: ^5.5.3
+  shared_preferences: ^2.5.3
+  lottie: ^3.3.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.6
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/logo.png
+    - assets/language_selection.jpg
+    - assets/nature.jpg
+    - assets/page_bk.jpg
+    - assets/logo1.png
+    - assets/slide1.png
+    - assets/slide2.png
+    - assets/slide3.png
+    - assets/lottie/chatbot_animation.json
+    - assets/bot.json
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/log.png"
+
+flutter_native_splash:
+  image: assets/log.png
+  background_image: assets/backk.png
+  fullscreen: true
+  android: true
+  ios: true
+  android_gravity: center
+  ios_content_mode: scaleAspectFill
+
+  android_12:
+    image: assets/log.png
+    background_image: assets/log.jpg
